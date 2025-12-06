@@ -3,7 +3,7 @@ import { connect } from 'cloudflare:sockets';
 
 let subPath = 'link';     // Node subscription path; if not modified, the UUID will be used as the subscription path.
 let proxyIP = '210.61.97.241:81';  // proxyIP format: ip, domain, ip:port, domain:port, etc. If no port is specified, 443 is used by default.
-let password = '5dc15e15-f285-4a9d-959b-0e4fbdd77b63';  // Node UUID
+let password = '79e26b6e-7072-4d79-8256-3716fe354e90';  // Node UUID
 let SSpath = '';          // Path verification: If empty, use the UUID as the verification path.
 
 // CF-CDN 
